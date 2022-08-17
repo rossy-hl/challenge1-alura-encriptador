@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 24px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .encriptador .btn-desencriptar {
+    margin-top: 0;
+    margin-left: 5px;
+  }
+
+  .encriptador .btn-encriptar {
+    margin-top: 0;
+    margin-right: 5px;
+  }
+
+  .encriptador p {
+    margin-top: 150px;
+  }
+}

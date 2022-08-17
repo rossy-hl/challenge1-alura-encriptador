@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1440px) {
+  .content {
+    width: 90vw;
+    height: 90vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px
+  }
+
+  .encriptador {
+    margin-left: 200px;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .result {
+    width: 30%;
+    margin-top: 0px;
+    height: 90%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .encriptador-input {
+    max-width: 810px;
+  }
+
+  .encriptador .btn-desencriptar {
+    margin-top: 0;
+    margin-left: 5px;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .encriptador .btn-encriptar {
+    margin-top: 0;
+    margin-right: 5px;
+  }
+
+  .encriptador p {
+    margin-top: 150px;
+  }
+
+  .result img {
+    display: block;
+  }
+
+  .result .showdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    display: none;
+  }
+
+  .result .notfound {
+    display: block;
+    margin: auto;
+  }
+}

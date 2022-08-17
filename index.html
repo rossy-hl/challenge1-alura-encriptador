@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador - alura</title>
+        <link
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="src/css/index.css">
+        <link rel="stylesheet" href="src/css/tablet.css">
+        <link rel="stylesheet" href="src/css/desktop.css">
+    </head>
+    <body>
+        <div class="content">
+            <img class="logo" src="src/images/logo.svg" alt="">
+            <div class="encriptador">
+                <div id="encriptador-input" class="encriptador-input"
+                    placeholder="Ingrese el texto aquí" id="wrap"
+                    contenteditable="true"></div>
+
+                <div class="buttons-sections">
+                    <p><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        Solo letras minúsculas y sin acentos</p>
+                    <div class="buttons">
+                        <input id="btn-encriptar" class="btn-encriptar"
+                            type="button" value="Encriptar">
+                        <input id="btn-desencriptar" class="btn-desencriptar"
+                            type="button" value="Desencriptar">
+                    </div>
+                </div>
+            </div>
+            <div class="result">
+                <div id="notfound" class="notfound">
+                    <img src="src/images/notfound.svg" alt="">
+                    <h4>Ningún mensaje fue encontrado</h4>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div id="showdata" class="showdata">
+                    <p id="result"></p>
+                    <input id="btn-copiar" type="button" value="Copiar">
+                </div>
+            </div>
+        </div>
+
+        <script src="src/js/index.js"></script>
+    </body>
+</html>
